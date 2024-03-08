@@ -38,6 +38,16 @@ namespace HeroPerks
                     Console.WriteLine("No Perks at all");
                     return;
             }
+            Console.WriteLine($"Player Perks:{playerPerk}");
+
+            if ((playerPerk & Perks.Stealth)==Perks.Stealth && (playerPerk & Perks.DoubleJump)==Perks.DoubleJump)
+            {
+                Console.WriteLine("Silente Jumper!");
+            }
+            if ((playerPerk & Perks.AutoHeal) != Perks.AutoHeal)
+            {
+                Console.WriteLine("Not gonna make ir!");
+            }
 
             
 
