@@ -4,19 +4,20 @@ namespace PowTwoUntil
 {
     class Program
     {
-        private static void PowerOfUntil5()
-            {
-                for (int i = 1, i <= (1 <<5); i = i <<1)
+        private static void PowerOf2Until5()
                 {
-                    Console.WriteLine(i);
+                    for (int i = 1; i <= (1<<5); i = i <<1)
+                    {
+                        Console.WriteLine(i);
+                    }
+                    
+                    
                 }
-
-            }
         static void Main(string[] args)
         {
-            PowerOfUntil5();
-            PowerOfUntil5();
+            PowerOf2Until5();
+            PowerOf2Until5();
         }
-
+        
     }
 }
