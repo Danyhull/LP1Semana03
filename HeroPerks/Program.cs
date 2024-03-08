@@ -33,8 +33,13 @@ namespace HeroPerks
                         break;
                 }
             }
+            if (playerPerk == 0)
+            {
+                    Console.WriteLine("No Perks at all");
+                    return;
+            }
 
-            if
+            
 
         }
     }
