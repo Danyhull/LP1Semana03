@@ -6,7 +6,20 @@ namespace ChangeString
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string as = Console.ReadLine();
+            char  b = Char.Parse(Console.ReadLine());
+
+            foreach(char a in s)
+            {
+                if(a == b)
+                {
+                    Console.Write("X");
+                }
+                else
+                {
+                    Console.Write(a);
+                }
+            }
         }
     }
 }
