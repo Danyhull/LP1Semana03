@@ -6,18 +6,18 @@ namespace ChangeString
     {
         static void Main(string[] args)
         {
-            string as = Console.ReadLine();
-            char  b = Char.Parse(Console.ReadLine());
+            string s = Console.ReadLine();
+            char  a = Char.Parse(Console.ReadLine());
 
-            foreach(char a in s)
+            foreach(char b in s)
             {
-                if(a == b)
+                if (b != a)
                 {
-                    Console.Write("X");
+                    Console.Write(b);
                 }
                 else
                 {
-                    Console.Write(a);
+                    Console.Write("X");
                 }
             }
         }
