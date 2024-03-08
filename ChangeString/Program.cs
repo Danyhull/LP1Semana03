@@ -20,6 +20,7 @@ namespace ChangeString
                     Console.Write("X");
                 }
             }
+            Console.ReadLine();
         }
     }
 }
